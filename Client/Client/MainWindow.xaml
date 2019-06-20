@@ -1,0 +1,17 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="textIpAddress" HorizontalAlignment="Left" Height="53" Margin="73,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
+        <TextBox Name="textPort" HorizontalAlignment="Left" Height="53" Margin="295,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Name="buttonConnect" Content="Connect" HorizontalAlignment="Left" Margin="467,47,0,0" VerticalAlignment="Top" Width="131" Height="50" Click="ConnectButton"/>
+        <TextBox Name="textAnswerServer" HorizontalAlignment="Left" Height="105" Margin="73,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="525"/>
+        <TextBox Name="textMessage" HorizontalAlignment="Left" Height="105" Margin="73,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="525"/>
+
+    </Grid>
+</Window>
